@@ -1,0 +1,12 @@
+FRATERNIDADES QR 2.0 - CETis 126
+
+INSTALACIÓN:
+1. Publica TODOS los archivos de esta carpeta en un sitio HTTPS (ej. GitHub Pages). No abras index.html como file:// para instalar PWA.
+2. Con Internet, abre el enlace HTTPS una vez. Android: menú de Chrome > Instalar aplicación. iPhone: Safari > Compartir > Añadir a pantalla de inicio.
+3. Abre la aplicación instalada y prueba modo avión.
+4. Registra o importa alumnos, crea misiones, genera códigos QR y guarda PDF usando Imprimir > Guardar como PDF.
+5. Realiza respaldos JSON frecuentes. La información es local por dispositivo y no se sincroniza automáticamente.
+
+LECTOR QR: utiliza BarcodeDetector nativo, que funciona sin conexión en navegadores compatibles, especialmente Chrome Android. Safari iPhone puede NO admitir BarcodeDetector; en ese caso el escaneo automático no funciona y hay que usar registro manual. No afirmamos compatibilidad universal del escáner. Para iPhone con escaneo QR sin conexión será necesario incorporar un decodificador JavaScript/WASM compatible en una siguiente versión.
+
+DATOS: No cambies la matrícula ni borres los datos del navegador sin respaldo. Si ya usabas la versión anterior en la misma dirección web/origen, la nueva versión conserva la clave de almacenamiento.
